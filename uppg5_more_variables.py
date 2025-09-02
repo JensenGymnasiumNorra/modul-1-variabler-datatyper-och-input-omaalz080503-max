@@ -12,3 +12,19 @@ Exempel på utskrift, det inom () ska ändras om variablerna ändras:
 Välkommen till mitt program (Oskar). Du och (Hampus) är (53) år tillsammans.
 
 """
+# Skapa variabler för ditt eget namn och ålder
+mitt_namn = "omar"
+min_ålder = 17
+
+# Skriv ut ditt namn med hjälp av variabeln
+print("Mitt namn är:", mitt_namn)
+
+# Skapa variabler för användarens namn och ålder
+anv_namn = input("Vad heter du? ")
+anv_ålder = int(input("Hur gammal är du? "))
+
+# Addera åldrarna
+total_ålder = min_ålder + anv_ålder
+
+# Skriv ut meningen
+print(f"Välkommen till mitt program {anv_namn}. vi är {total_ålder} år tillsammans.")
